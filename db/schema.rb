@@ -19,10 +19,10 @@ ActiveRecord::Schema.define(version: 2022_03_09_120234) do
   end
 
   create_table "transactions", force: :cascade do |t|
-    t.integer "customer_id"
     t.string "input"
     t.string "output"
     t.string "date_of_transaction"
+    t.integer "customer_id"
   end
 
 end

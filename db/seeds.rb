@@ -8,9 +8,9 @@
 
 james = Customer.create(name: "James Mary")	
 robert = Customer.create(name: "Robert Patricia")	
-john = Customer.create(name: "John Jennifer"),	
-michael = Customer.create(name: "Michael Linda"	),
-william = Customer.create(name: "William Elizabeth"),	
+john = Customer.create(name: "John Jennifer")
+michael = Customer.create(name: "Michael Linda"	)
+william = Customer.create(name: "William Elizabeth")
 david = Customer.create(name: "David Barbar")
 
 Transaction.create(
