@@ -38,5 +38,5 @@ date_of_transaction: "24/2/20",
 customer_id: robert.id)
 ```
 
-## Screenshot
-![Imgur](https://imgur.com/vpUF4gu)
+## Screenshot of JSON
+![Imgur](https://i.imgur.com/vpUF4gu.png)
