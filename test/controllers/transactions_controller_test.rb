@@ -23,16 +23,4 @@ class TransactionsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should update transaction" do
-    patch transaction_url(@transaction), params: { transaction: { customer_id: @transaction.customer_id, date_of_transaction: @transaction.date_of_transaction, identifier: @transaction.identifier, input: @transaction.input, output: @transaction.output } }, as: :json
-    assert_response 200
-  end
-
-  test "should destroy transaction" do
-    assert_difference('Transaction.count', -1) do
-      delete transaction_url(@transaction), as: :json
-    end
-
-    assert_response 204
-  end
 end

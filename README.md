@@ -1,24 +1,17 @@
-# README
+# Transaction API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- They need a microservice that stores transactions 
+- All transactions need:
+    - An identifier = integer
+    - A customer ID showing who created the transaction = integer
+    - Input amount and currency = string
+    - Output amount and currency = string
+    - Date of transaction = string
 
-Things you may want to cover:
+- Three endpoints:
+    - POST /transactions: create a new transaction
+    - GET /transactions: list all transactions in the system
+    - GET /transactions/id: get the specific transaction by ID
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- I can choose how I store the transactions - database
+- Only requirement is that they all should be JSON based both on the input and output
